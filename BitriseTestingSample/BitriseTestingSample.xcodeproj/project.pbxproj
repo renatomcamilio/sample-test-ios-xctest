@@ -16,6 +16,7 @@
 		BA0701E81B31D21B0011D862 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA0701E71B31D21B0011D862 /* Images.xcassets */; };
 		BA0701EB1B31D21B0011D862 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA0701E91B31D21B0011D862 /* LaunchScreen.xib */; };
 		BA0701F71B31D21B0011D862 /* BitriseTestingSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0701F61B31D21B0011D862 /* BitriseTestingSampleTests.swift */; };
+		F07042DD1B69BEFE004B1134 /* BitriseTestingSampleTests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07042DC1B69BEFE004B1134 /* BitriseTestingSampleTests2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		BA0701F01B31D21B0011D862 /* BitriseTestingSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitriseTestingSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA0701F51B31D21B0011D862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA0701F61B31D21B0011D862 /* BitriseTestingSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitriseTestingSampleTests.swift; sourceTree = "<group>"; };
+		F07042DC1B69BEFE004B1134 /* BitriseTestingSampleTests2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitriseTestingSampleTests2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			children = (
 				BA0701F61B31D21B0011D862 /* BitriseTestingSampleTests.swift */,
 				BA0701F41B31D21B0011D862 /* Supporting Files */,
+				F07042DC1B69BEFE004B1134 /* BitriseTestingSampleTests2.swift */,
 			);
 			path = BitriseTestingSampleTests;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA0701F71B31D21B0011D862 /* BitriseTestingSampleTests.swift in Sources */,
+				F07042DD1B69BEFE004B1134 /* BitriseTestingSampleTests2.swift in Sources */,
 				A36332D71B344FFC00465BBF /* ConnectionHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
