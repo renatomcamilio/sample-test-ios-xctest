@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82DC7D78675E0DA925734B7E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55AEF06C1B12374A61421C8B /* AssetsLibrary.framework */; };
+		89A108D8405A5080744CFC7D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E378AE329CDAC452BD922432 /* SystemConfiguration.framework */; };
+		9D6A57389E4E60075D7F1C39 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8E4E0E0081C1C69B5082AC /* BuddyBuildSDK.framework */; };
 		A36332D61B344FF900465BBF /* ConnectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36332D51B344FF900465BBF /* ConnectionHelper.swift */; };
 		A36332D71B344FFC00465BBF /* ConnectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36332D51B344FF900465BBF /* ConnectionHelper.swift */; };
 		BA0701DE1B31D21B0011D862 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0701DD1B31D21B0011D862 /* AppDelegate.swift */; };
@@ -16,7 +19,9 @@
 		BA0701E81B31D21B0011D862 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA0701E71B31D21B0011D862 /* Images.xcassets */; };
 		BA0701EB1B31D21B0011D862 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA0701E91B31D21B0011D862 /* LaunchScreen.xib */; };
 		BA0701F71B31D21B0011D862 /* BitriseTestingSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0701F61B31D21B0011D862 /* BitriseTestingSampleTests.swift */; };
+		CF9DBCA37ACB3B46D9EF1663 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4AADDB4BCE33484EEF32AC /* CoreText.framework */; };
 		F07042DD1B69BEFE004B1134 /* BitriseTestingSampleTests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07042DC1B69BEFE004B1134 /* BitriseTestingSampleTests2.swift */; };
+		F0C5F26173F804392B1F8D71 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4F616B47E0EFC833BF290D /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E8E4E0E0081C1C69B5082AC /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		55AEF06C1B12374A61421C8B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		5D4AADDB4BCE33484EEF32AC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		A36332D51B344FF900465BBF /* ConnectionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionHelper.swift; sourceTree = "<group>"; };
 		BA0701D81B31D21B0011D862 /* BitriseTestingSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitriseTestingSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA0701DC1B31D21B0011D862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,6 +50,9 @@
 		BA0701F01B31D21B0011D862 /* BitriseTestingSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitriseTestingSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA0701F51B31D21B0011D862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA0701F61B31D21B0011D862 /* BitriseTestingSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitriseTestingSampleTests.swift; sourceTree = "<group>"; };
+		CE7878F36FE38EF267202B31 /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		DB4F616B47E0EFC833BF290D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		E378AE329CDAC452BD922432 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F07042DC1B69BEFE004B1134 /* BitriseTestingSampleTests2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitriseTestingSampleTests2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,6 +61,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D6A57389E4E60075D7F1C39 /* BuddyBuildSDK.framework in Frameworks */,
+				82DC7D78675E0DA925734B7E /* AssetsLibrary.framework in Frameworks */,
+				CF9DBCA37ACB3B46D9EF1663 /* CoreText.framework in Frameworks */,
+				F0C5F26173F804392B1F8D71 /* CoreTelephony.framework in Frameworks */,
+				89A108D8405A5080744CFC7D /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,12 +79,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FA41F90D0F5C9C60569CAE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E8E4E0E0081C1C69B5082AC /* BuddyBuildSDK.framework */,
+				55AEF06C1B12374A61421C8B /* AssetsLibrary.framework */,
+				5D4AADDB4BCE33484EEF32AC /* CoreText.framework */,
+				DB4F616B47E0EFC833BF290D /* CoreTelephony.framework */,
+				E378AE329CDAC452BD922432 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA0701CF1B31D21B0011D862 = {
 			isa = PBXGroup;
 			children = (
 				BA0701DA1B31D21B0011D862 /* BitriseTestingSample */,
 				BA0701F31B31D21B0011D862 /* BitriseTestingSampleTests */,
 				BA0701D91B31D21B0011D862 /* Products */,
+				0FA41F90D0F5C9C60569CAE2 /* Frameworks */,
+				CE7878F36FE38EF267202B31 /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -358,10 +388,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Doe Pics Hit Inc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BitriseTestingSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "08044f92-aacf-4b1d-b8ba-b92d8f964b26";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -370,10 +405,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Doe Pics Hit Inc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BitriseTestingSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "08044f92-aacf-4b1d-b8ba-b92d8f964b26";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Release;
 		};
