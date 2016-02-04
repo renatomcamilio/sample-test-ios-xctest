@@ -32,9 +32,4 @@ class BitriseTestingSampleTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-    
-    func testNetworking() {
-        XCTAssert(!ConnectionHelper.pingServer(), "The server should respond and the status code should be 200");
-    }
-    
 }
