@@ -166,6 +166,8 @@
 		BA0701D01B31D21B0011D862 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = Bitrise;
 				TargetAttributes = {

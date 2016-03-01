@@ -11,11 +11,17 @@ import UIKit
 class ConnectionHelper: NSObject {
     static func pingServer() -> Bool {
         let urlPath: String = "http://google.com"
-        var url: NSURL = NSURL(string: urlPath)!
-        var request1: NSURLRequest = NSURLRequest(URL: url)
+        let url: NSURL = NSURL(string: urlPath)!
+        let request1: NSURLRequest = NSURLRequest(URL: url)
         var response: NSURLResponse?
         var error: NSError?
-        let urlData = NSURLConnection.sendSynchronousRequest(request1, returningResponse: &response, error: &error)
+        let urlData: NSData?
+        do {
+            urlData = try NSURLConnection.sendSynchronousRequest(request1, returningResponse: &response)
+        } catch let error1 as NSError {
+            error = error1
+            urlData = nil
+        }
         if let httpResponse = response as? NSHTTPURLResponse {
             if(httpResponse.statusCode == 200)
             {
