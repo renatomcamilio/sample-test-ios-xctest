@@ -365,7 +365,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = renatocamilio.com.bitrise.BitriseTestingSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "bb12e144-11c2-4cae-ac7f-00d33c2f417a";
 			};
 			name = Debug;
 		};
@@ -378,7 +378,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = renatocamilio.com.bitrise.BitriseTestingSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "bb12e144-11c2-4cae-ac7f-00d33c2f417a";
 			};
 			name = Release;
 		};
