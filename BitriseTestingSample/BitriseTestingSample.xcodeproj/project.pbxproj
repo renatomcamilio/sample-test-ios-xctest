@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12A77182A76E3DEED5088E67 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7404667A5BDED599654753A /* BuddyBuildSDK.framework */; };
+		1DF53DF0D1BBF0DC3D810360 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D12D0453DF1D7CA0023CCC1 /* SystemConfiguration.framework */; };
+		2F839202C7655F28F5E23A40 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49139447BCE907F313D5558C /* CoreTelephony.framework */; };
+		574E409856D944FD5B2A243D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D75A35849441B7B725E2F68 /* QuartzCore.framework */; };
+		6D21F82E0EB1A6A5EA28976D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46BCD90E0E2F361859C9F34A /* CoreText.framework */; };
 		A36332D61B344FF900465BBF /* ConnectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36332D51B344FF900465BBF /* ConnectionHelper.swift */; };
 		A36332D71B344FFC00465BBF /* ConnectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36332D51B344FF900465BBF /* ConnectionHelper.swift */; };
 		BA0701DE1B31D21B0011D862 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0701DD1B31D21B0011D862 /* AppDelegate.swift */; };
@@ -16,6 +21,7 @@
 		BA0701E81B31D21B0011D862 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA0701E71B31D21B0011D862 /* Images.xcassets */; };
 		BA0701EB1B31D21B0011D862 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA0701E91B31D21B0011D862 /* LaunchScreen.xib */; };
 		BA0701F71B31D21B0011D862 /* BitriseTestingSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0701F61B31D21B0011D862 /* BitriseTestingSampleTests.swift */; };
+		EF21E4C2170B6BDF6E902BAA /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCC26D44BF4113B35D225C6 /* AssetsLibrary.framework */; };
 		F07042DD1B69BEFE004B1134 /* BitriseTestingSampleTests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07042DC1B69BEFE004B1134 /* BitriseTestingSampleTests2.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46BCD90E0E2F361859C9F34A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		49139447BCE907F313D5558C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		5D75A35849441B7B725E2F68 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7D12D0453DF1D7CA0023CCC1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		A36332D51B344FF900465BBF /* ConnectionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionHelper.swift; sourceTree = "<group>"; };
 		BA0701D81B31D21B0011D862 /* BitriseTestingSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitriseTestingSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA0701DC1B31D21B0011D862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,7 +52,10 @@
 		BA0701F01B31D21B0011D862 /* BitriseTestingSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitriseTestingSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA0701F51B31D21B0011D862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA0701F61B31D21B0011D862 /* BitriseTestingSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitriseTestingSampleTests.swift; sourceTree = "<group>"; };
+		EFCC26D44BF4113B35D225C6 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		F07042DC1B69BEFE004B1134 /* BitriseTestingSampleTests2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitriseTestingSampleTests2.swift; sourceTree = "<group>"; };
+		F7404667A5BDED599654753A /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		FB0D12204FA52CAC9999F27B /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +63,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12A77182A76E3DEED5088E67 /* BuddyBuildSDK.framework in Frameworks */,
+				EF21E4C2170B6BDF6E902BAA /* AssetsLibrary.framework in Frameworks */,
+				6D21F82E0EB1A6A5EA28976D /* CoreText.framework in Frameworks */,
+				2F839202C7655F28F5E23A40 /* CoreTelephony.framework in Frameworks */,
+				1DF53DF0D1BBF0DC3D810360 /* SystemConfiguration.framework in Frameworks */,
+				574E409856D944FD5B2A243D /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,12 +82,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AB7BFDA95856B3D490DF743 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7404667A5BDED599654753A /* BuddyBuildSDK.framework */,
+				EFCC26D44BF4113B35D225C6 /* AssetsLibrary.framework */,
+				46BCD90E0E2F361859C9F34A /* CoreText.framework */,
+				49139447BCE907F313D5558C /* CoreTelephony.framework */,
+				7D12D0453DF1D7CA0023CCC1 /* SystemConfiguration.framework */,
+				5D75A35849441B7B725E2F68 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA0701CF1B31D21B0011D862 = {
 			isa = PBXGroup;
 			children = (
 				BA0701DA1B31D21B0011D862 /* BitriseTestingSample */,
 				BA0701F31B31D21B0011D862 /* BitriseTestingSampleTests */,
 				BA0701D91B31D21B0011D862 /* Products */,
+				0AB7BFDA95856B3D490DF743 /* Frameworks */,
+				FB0D12204FA52CAC9999F27B /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -361,11 +395,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BitriseTestingSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = renatocamilio.com.bitrise.BitriseTestingSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "bb12e144-11c2-4cae-ac7f-00d33c2f417a";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -374,11 +413,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BitriseTestingSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = renatocamilio.com.bitrise.BitriseTestingSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "bb12e144-11c2-4cae-ac7f-00d33c2f417a";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Release;
 		};
